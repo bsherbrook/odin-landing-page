@@ -1,1 +1,2 @@
 # odin-landing-page
+This is my second attempt ever to make a website landing page. Since my last attempt with my odin-recipes page I have learned more basic language for CSS and flexbox to assist me! Here goes nothing! I will be focusing primariliy on proper spacing aesthetics and overall prettiness/organization of the page! -Bryan
