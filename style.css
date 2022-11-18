@@ -1,0 +1,57 @@
+body {
+        font-family: sans-serif;
+
+}
+
+
+.header, .footer {
+
+        background-color: #1F2937;
+      
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 1000;
+
+}
+
+.hlink, .subtext {
+        font-size: 18px;
+        color: #E5E7EB;
+}
+
+
+
+.title {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
+
+}
+
+.infohead{
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+
+}
+
+.quote {
+
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+button {
+    color: #3882F6;
+}
+
+.signup {
+
+    background-color: #3882F6;
+}
