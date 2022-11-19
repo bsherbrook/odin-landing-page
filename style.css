@@ -1,21 +1,54 @@
 body {
         font-family: sans-serif;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding-left: 420px;
+        padding-right: 420px;
+        background-color:#060b0f;
+}
+
+div {   display: flex;
+        flex-direction: column;
 
 }
 
-
-.header, .footer {
+.header, .footer  {
 
         background-color: #1F2937;
-      
+}
+
+.header{
+    height: 500px;
+    padding: 20px 200px 20px 200px;
+    
 
 }
+
+.hbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+}
+
+.hlink{
+    
+    list-style: none;
+    display: inline-flex;
+    margin: 0 10px 0 10px;
+}
+
+.face{ 
+    
+    ;}
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
     font-weight: 1000;
-
+    padding-top: 15px;
 }
 
 .hlink, .subtext {
@@ -30,6 +63,11 @@ body {
     font-weight: 1000;
     color: #F9FAF8;
 
+}
+
+
+.information{
+    background-color: #F9FAF8;
 }
 
 .infohead{
