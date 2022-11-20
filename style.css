@@ -230,3 +230,13 @@ div {   display: flex;
     background-color:#F9FAF8;
 
 }
+
+.footer {
+    box-sizing: border-box;
+    height: 100px;
+    color:#F9FAF8;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
