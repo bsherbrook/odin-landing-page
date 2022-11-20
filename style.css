@@ -38,6 +38,17 @@ div {   display: flex;
     list-style: none;
     display: inline-flex;
     margin: 0 10px 0 10px;
+    
+    
+}
+
+.hlink>a { color: #F9FAF8;
+            text-decoration: none;
+
+}
+
+.hlink>a:hover {
+        color:#3882F6 ;
 }
 
 
@@ -70,7 +81,7 @@ div {   display: flex;
     
     }
 
-.blue {
+.blue{
         background-color: #3882F6;
         color: #f9faf8;
         width: 120px;
@@ -78,11 +89,12 @@ div {   display: flex;
         border-radius: 15px;
         font-weight: 1000;
         font-size: 14px;
+        
       
 }    
 
 .blue:hover {
-        background-color:#0946a9
+        background-color:#0946a9;
 
 }
 
@@ -135,18 +147,19 @@ div {   display: flex;
 }
 
 .square1, .square2, .square3, .square4{
-            height: 150px;
-            width: 150px;
+            height: 200px;
+            width: 200px;
                 
 }
 
 .infobody .caption {
     text-align: center;
     flex-wrap: wrap;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     color: #1F2937;
     font-weight: 500;
+
 }
 
 
