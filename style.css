@@ -151,11 +151,27 @@ div {   display: flex;
 
 
 .quote {
-
+    box-sizing: border-box;
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
-    color: #1F2937;
+    color:#545f6d;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 130px 400px 0px 430px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+}
+
+.thor{ font-size: 26px;
+        font-weight: 800;
+        font-style: normal;
+        color: #1F2937;
+        padding-left: 400px;
+        display: flex;
+        flex: auto;
 }
 
 button {
