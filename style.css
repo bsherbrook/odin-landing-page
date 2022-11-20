@@ -174,11 +174,59 @@ div {   display: flex;
         flex: auto;
 }
 
-button {
-    color: #3882F6;
+.signbox{
+    box-sizing: border-box;
+    background-color:#F9FAF8;
+    height: 320px;
+    padding: 80px 250px 80px 250px;
+
+
 }
 
-.signup {
-
+.boxsign{
     background-color: #3882F6;
+    box-sizing: border-box;
+    border-radius: 12px;
+    height: 150px;
+    padding: 50px 150px 50px 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.callto{
+    color: #F9FAF8;
+    font-weight: 700;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.signup{
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 100;
+
+}
+
+.upsign{
+    width: 130px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    border-width: 3px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 5px;
+    border-style:groove;
+    
+}
+
+.upsign:hover {
+    color:#79a5ec;
+    border-color:#79a5ec;
+    background-color:#F9FAF8;
+
 }
